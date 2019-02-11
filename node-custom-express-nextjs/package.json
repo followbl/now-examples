@@ -1,0 +1,17 @@
+{
+  "name": "custom-server-express",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "now-build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "next": "^8.0.0",
+    "nodemon": "^1.18.10",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
